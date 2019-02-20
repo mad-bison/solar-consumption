@@ -34,7 +34,7 @@ data = data.reset_index(drop = True)
 data = data.drop(data.index[len(data.index)-1])
 
 # Save data to a new CSV ready for import into PVOutput.org
-data.to_csv("newconsumption.csv", index = False)
+data.to_csv("newconsumption.csv", index = False, float_format = '%.3f')
 
 # Print data as a visual check.
 print(data)
