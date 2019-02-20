@@ -23,7 +23,7 @@ data.insert(4, 'ESTIMATED?', 'No')
 data['DATE'] = pd.to_datetime(data['DATE'], format='%Y%m%d').dt.strftime('%d' + '/' + '%m' + '/' + '%Y')
 
 # Get total number of rows minus 12 records to import
-rows = len(data.index)-12
+rows = len(data.index)-13
 # Drop all but final rows
 data = data.drop(data.index[0:rows])
 # Reset Index on dataFrame and drop old index
