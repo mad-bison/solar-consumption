@@ -22,8 +22,8 @@ data.insert(4, 'ESTIMATED?', 'No')
 # Reformat date from %Y%m%d (20190106) to %d/&m/%Y (06/01/2019)
 data['DATE'] = pd.to_datetime(data['DATE'], format='%Y%m%d').dt.strftime('%d' + '/' + '%m' + '/' + '%Y')
 
-# Get total number of rows minus 12 records to import
-rows = len(data.index)-13
+# Get total number of rows minus 13 rows to keep
+rows = len(data.index)-14
 # Drop all but final rows
 data = data.drop(data.index[0:rows])
 # Reset Index on dataFrame and drop old index
