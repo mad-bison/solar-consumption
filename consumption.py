@@ -1,6 +1,5 @@
 # Import Modules
 import pandas as pd
-import numpy as np
 import csv
 
 # Read data from consumption.csv (from Powercor myEnergyDashboard)and skip first 700 rows
