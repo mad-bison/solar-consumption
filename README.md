@@ -6,7 +6,7 @@ This script is used to process/format data from the Powercor myEnergy Energy Das
 
 1. Python 3.x
 2. Pandas
-      pip install pandas
+    * pip install pandas
 
 ## Usage
 1. Register with Powercor by using your meter NMI to gain access to the myEnergy Dashboard.
