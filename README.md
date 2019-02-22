@@ -36,12 +36,11 @@ NMI,METER SERIAL NUMBER,CON/GEN,DATE,ESTIMATED?,00:00 - 00:30,00:30 - 01:00,01:0
 11111111111,123456,Consumption,15/02/2019,No,0.223,0.214,0.206,0.218,0.221,0.217,0.207,0.220,0.218,0.211,0.229,0.248,0.176,0.039,0.010,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.030,0.140,0.144,0.165,0.235,0.207,0.212,0.162,0.147,0.142,0.148,0.145
 11111111111,123456,Consumption,16/02/2019,No,0.141,0.134,0.148,0.145,0.146,0.132,0.140,0.145,0.146,0.141,0.135,0.145,0.219,0.182,0.075,0.041,0.019,0.000,0.000,0.000,0.000,0.039,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.373,0.000,0.000,0.140,0.195,0.272,0.338,0.251,0.235,0.209,0.245,0.221,0.206,0.161,0.151,0.162
 11111111111,123456,Consumption,17/02/2019,No,0.138,0.153,0.160,0.183,0.177,0.156,0.152,0.152,0.139,0.143,0.152,0.151,0.164,0.048,0.003,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.139,0.000,0.000,0.000,0.000,0.026,0.039,0.157,0.155,0.158,0.204,0.465,0.419,0.142,0.149,0.152,0.145,0.133
-
 ```
 12. Now that you have your data, open **newconsumption.csv** using your favourite editor. 
-   * Copy and paste this data into the **Add Output/Live Loader** (https://pvoutput.org/loadlive.jsp) section on PV Output, using the folloiwng settings:
-   * Data Format: UE Portal
-   * Upload: Consumption
-   * Use Net Data: Unchecked
-   
+    * Copy and paste this data into the **Add Output/Live Loader** (https://pvoutput.org/loadlive.jsp) section on PV Output, using the following settings:
+    * Data Format: UE Portal
+    * Upload: Consumption
+    * Use Net Data: Unchecked
+    
 13. Select **Load** and your results should be processed.
